@@ -1,11 +1,13 @@
 import './App.css';
 import Eighteen from './Eighteen';
+import Nineteen from './Nineteen';
 // import Thirteen from './Thirteen';
 // import Fourteen from './Fourteen';
 // import Fifteen from './Fifteen';
 // import Sixteen from './Sixteen';
 //import Seventeen from './Seventeen';
 //import Eighteen from './Eighteen';
+
 function App() {
   //const items = ['item1','item2','item3','item4','Another item5'];
   return (
@@ -18,7 +20,8 @@ function App() {
       {/* <Fifteen items = {items} itemPerPage = {2}/> */}
       {/* <Sixteen/> */}
       {/* <Seventeen/> */}
-      <Eighteen/>
+      {/* <Eighteen/> */}
+      <Nineteen/>
     </div>
   );
 }
