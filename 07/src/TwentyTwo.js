@@ -17,7 +17,10 @@ function TwentyTwo() {
         <h1>my {car.brand}</h1>
         <p> it is a {car.color} {car.model} from {car.year}</p>
         <button type="button" onClick={updateColor}>
-            click
+            clickme
+        </button>
+        <button type="button" onClick={updateColor}>
+            submit
         </button>
     </div>
   )
