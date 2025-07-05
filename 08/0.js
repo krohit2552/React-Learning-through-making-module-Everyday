@@ -22,6 +22,7 @@ async function getUserProfile(userId) {
             ...user,
             creditScore:score
         }
+        
     } catch(err){
         console.log('error fetching profile', err);
         throw err;
@@ -32,3 +33,5 @@ async function getUserProfile(userId) {
 getUserProfile(101).then(profile =>{
     console.log('User Profile:', profile);
 })
+
+console.log("first class function");
