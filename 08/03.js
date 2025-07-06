@@ -1,3 +1,4 @@
+//callback example
 
 function saveOrderToDB(orderdata, callback){
     setTimeout(()=>{
