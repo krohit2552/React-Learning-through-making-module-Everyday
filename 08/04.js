@@ -19,7 +19,7 @@ function fetchUserDataFromApi(userId){
     })
 }
 
-fetchUserDataFromApi(101)
+fetchUserDataFromApi(102)
 .then((user)=>{
     console.log("User fetched:" ,user);
 })
