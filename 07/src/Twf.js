@@ -5,7 +5,7 @@ function Twf() {
 
   const themeStyles = {
     backgroundColor: darkMode ? "#333" : "#fff",
-    color: darkMode ? "#fff" : "#000",
+    color: darkMode ? "#fff" : "#001",
     padding: "20px",
     textAlign: "center",
   };
